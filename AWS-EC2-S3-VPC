@@ -1,0 +1,13 @@
+1.Create AWS Account 
+
+2.MFA Authentication 
+=> Add MFA authentication for security purpose . Download Google Authenticator app . Go to IAM otpion then ADD MFA and then click Assign MFA device option and connect to your google authenticator mobile by QR code. 
+3. AWS CLI connect with your local PC 
+=> Download AWS CLI from this link
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+Then complete install 
+Go to CMD command write 
+  --aws configure
+ then paste AWS Access key from from your credential then past secret key ->write default region name ->wirte Json
+ 4.
+ 

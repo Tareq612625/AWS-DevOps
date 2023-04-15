@@ -1,13 +1,36 @@
 1.Create AWS Account 
 
 2.MFA Authentication 
-=> Add MFA authentication for security purpose . Download Google Authenticator app . Go to IAM otpion then ADD MFA and then click Assign MFA device option and connect to your google authenticator mobile by QR code. 
+=> Add MFA authentication for security purpose . Download Google Authenticator app . Go to IAM otpion then ADD MFA and then click Assign MFA device option
+and connect to your google authenticator mobile by QR code. 
+--------------------------------------------------------********************************-----------------------------------------------------------------------
 3. AWS CLI connect with your local PC 
 => Download AWS CLI from this link
-https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+https://docs.aws.amazon.com/cli/latest/userguide/getting-stoarted-install.html
 Then complete install 
 Go to CMD command write 
   --aws configure
  then paste AWS Access key from from your credential then past secret key ->write default region name ->wirte Json
- 4.
+ --------------------------------------------------------********************************-----------------------------------------------------------------------
+ 4.EC2 
+ =>Firstly create Key Pairs (A key pair, consisting of a private key and a public key, is a set of security credentials that you use to prove your identity when
+ connecting to an instance. )
+ go to create key pairs option  then select RSA type and select key file format (.pem for connect local pc in cli , .ppk format for connect MOBA Extream or putty).
+ after that key automatic downloaded your local pc.
+ 
+ Create Security Group 
+ 
+ 
+
+5. VPC 
+ => Go to create VPC option Select (VPC and More) option edit VPC name set IPv4 CIDR block ( 10.0.0.0/24 ) 
+ Number of Availability Zones (AZs) =2
+ Number of public subnets=2
+ Number of private subnets=2
+ NAT gateways ($) =In 1 AZ  (if need to NAT gateways it will chargeable )
+DNS optionsInfo=
+Enable DNS hostnames
+Enable DNS resolution
+Add tag for Identification
+
  

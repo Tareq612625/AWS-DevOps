@@ -1,0 +1,20 @@
+=> project download from git in local pc 
+git clone 'git url '
+=>Create new branch in local 
+git branch 'branch name'
+=> local branch name transfer into remote git 
+ git push -u origin 'branch-name'
+=> git branch list check
+git branch
+git branch -r (for remote branch check )
+=> Branch Switched 
+git checkout 'branch name' (for local)
+git switch -c remote/Israfil (for remote)
+=>file change or added check 
+git status
+=> file or changes added in git
+git add . (all file )
+git add 'file name'
+=>git commit 
+git commit -m “[descriptive message]”
+
